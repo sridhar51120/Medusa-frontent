@@ -12,7 +12,8 @@ export default async function Footer() {
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="content-container flex flex-col w-full">
-        <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-40">
+        This is a Sample Footer for ACS Info
+        {% comment %} <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-40">
           <div>
             <LocalizedClientLink
               href="/"
@@ -143,7 +144,7 @@ export default async function Footer() {
             © {new Date().getFullYear()} Medusa Store. All rights reserved.
           </Text>
           <MedusaCTA />
-        </div>
+        </div> {% endcomment %}
       </div>
     </footer>
   )

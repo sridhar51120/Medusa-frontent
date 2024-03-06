@@ -36,6 +36,7 @@
     "algoliasearch": "^4.20.0",
     "lodash": "^4.17.21",
     "medusa-plugin-meilisearch": "^2.0.10",
+    "medusa-plugin-twilio-sms": "^1.2.8",
     "medusa-react": "^9.0.0",
     "next": "^14.0.0",
     "react": "^18.2.0",
